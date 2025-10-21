@@ -1,31 +1,177 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Mens Mentorship | Empowering Men to Lead with Faith</title>
-  <link rel="stylesheet" href="assets/css/style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Men's Mentorship - Building character, faith, and leadership through guided lessons and community">
+    <title>Men's Mentorship - Home</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Favicon placeholder -->
+    <link rel="icon" type="image/png" href="assets/images/favicon.png">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-  <header>
-    <h1>Mens Mentorship</h1>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="lessons/index.html">Lessons</a>
-      <a href="about.html">About</a>
+    <!-- Navigation Bar -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <div class="logo">
+                <img src="assets/images/logo.png" alt="Men's Mentorship Logo" class="logo-img">
+                <span class="logo-text">Men's Mentorship</span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html" class="nav-link active">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="lessons/index.html" class="nav-link">Lessons</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
     </nav>
-  </header>
 
-  <main>
+    <!-- Hero Section -->
     <section class="hero">
-      <h2>Empowering men to work with purpose and lead with faith</h2>
-      <p>Building excellence, work ethics, and spiritual leadership through short audio messages and discussions.</p>
-      <a href="lessons/index.html" class="btn">Listen to Lessons</a>
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <h1 class="hero-title fade-in">Building Men of Character & Faith</h1>
+            <p class="hero-subtitle fade-in-delay">Join a community dedicated to excellence, integrity, and Christian leadership</p>
+            <div class="hero-buttons fade-in-delay-2">
+                <a href="lessons/index.html" class="btn btn-primary">Explore Lessons</a>
+                <a href="about.html" class="btn btn-secondary">Learn More</a>
+            </div>
+        </div>
     </section>
-  </main>
 
-  <footer>
-    <p>&copy; 2025 Mens Mentorship. All rights reserved.</p>
-  </footer>
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <h2 class="section-title">Why Men's Mentorship?</h2>
+            <div class="features-grid">
+                <div class="feature-card slide-in-left">
+                    <div class="feature-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <h3>Work & Productivity</h3>
+                    <p>Learn to excel in your career while maintaining balance and purpose in your professional life.</p>
+                </div>
+                <div class="feature-card slide-in-up">
+                    <div class="feature-icon">
+                        <i class="fas fa-cross"></i>
+                    </div>
+                    <h3>Faith & Devotion</h3>
+                    <p>Deepen your relationship with God through daily practices and spiritual disciplines.</p>
+                </div>
+                <div class="feature-card slide-in-right">
+                    <div class="feature-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Leadership</h3>
+                    <p>Develop authentic Christian leadership qualities that inspire and serve others.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lessons Preview Section -->
+    <section class="lessons-preview">
+        <div class="container">
+            <h2 class="section-title">Featured Lessons</h2>
+            <p class="section-subtitle">Start your journey with our foundational teachings</p>
+            <div class="lessons-grid">
+                <div class="lesson-card">
+                    <div class="lesson-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Work & Productivity</h3>
+                    <p>Master time management and goal setting for a productive life.</p>
+                    <a href="lessons/work-productivity.html" class="card-link">Start Lesson <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="lesson-card">
+                    <div class="lesson-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <h3>Excellence & Integrity</h3>
+                    <p>Build a life of honor, honesty, and unwavering principles.</p>
+                    <a href="lessons/excellence-integrity.html" class="card-link">Start Lesson <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="lesson-card">
+                    <div class="lesson-icon">
+                        <i class="fas fa-crown"></i>
+                    </div>
+                    <h3>Christian Leadership</h3>
+                    <p>Lead with humility, wisdom, and servant-hearted purpose.</p>
+                    <a href="lessons/christian-leadership.html" class="card-link">Start Lesson <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="lesson-card">
+                    <div class="lesson-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>Relationships & Character</h3>
+                    <p>Cultivate meaningful relationships and strong character.</p>
+                    <a href="lessons/relationships-character.html" class="card-link">Start Lesson <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="text-center">
+                <a href="lessons/index.html" class="btn btn-primary">View All Lessons</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Begin Your Journey?</h2>
+                <p>Join our community and receive weekly lessons, encouragement, and resources.</p>
+                <a href="contact.html" class="btn btn-light">Subscribe Now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Men's Mentorship</h3>
+                    <p>Empowering men to live with purpose, integrity, and faith.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="lessons/index.html">Lessons</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Resources</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Prayer Guide</a></li>
+                        <li><a href="#">Bible Study</a></li>
+                        <li><a href="#">Community Forum</a></li>
+                        <li><a href="#">FAQs</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Men's Mentorship. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript for navigation and animations -->
+    <script src="assets/js/main.js"></script>
 </body>
 </html>

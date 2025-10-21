@@ -1,41 +1,318 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Lessons | Mens Mentorship</title>
-  <link rel="stylesheet" href="../assets/css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore our comprehensive lessons on faith, leadership, character, and productivity">
+    <title>Lessons - Men's Mentorship</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="icon" type="image/png" href="../assets/images/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-  <header>
-    <h1>Mens Mentorship</h1>
-    <nav>
-      <a href="../index.html">Home</a>
-      <a href="index.html" class="active">Lessons</a>
-      <a href="../about.html">About</a>
+    <!-- Navigation Bar -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <div class="logo">
+                <img src="../assets/images/logo.png" alt="Men's Mentorship Logo" class="logo-img">
+                <span class="logo-text">Men's Mentorship</span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="../index.html" class="nav-link">Home</a></li>
+                <li><a href="../about.html" class="nav-link">About</a></li>
+                <li><a href="index.html" class="nav-link active">Lessons</a></li>
+                <li><a href="../contact.html" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
     </nav>
-  </header>
 
-  <main>
-    <h2>Audio Lessons</h2>
-    <p>Listen and grow in purpose, work ethics, and faith.</p>
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1 class="page-title">Our Lessons</h1>
+            <p class="page-description">Comprehensive teachings to help you grow in faith, character, and purpose</p>
+        </div>
+    </section>
 
-    <div class="lesson">
-      <h3>Lesson 1: The Value of Work</h3>
-      <!-- Example Anchor embed -->
-      <iframe src="https://anchor.fm/your-anchor-id/embed/episodes/example" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
-      <p>Short reflection on the biblical foundation and dignity of work.</p>
-    </div>
+    <!-- Lessons Content -->
+    <section class="lessons-section">
+        <div class="container">
+            <!-- Category: Work & Productivity -->
+            <div class="lesson-category">
+                <div class="category-header">
+                    <h2 class="category-title">
+                        <i class="fas fa-briefcase"></i>
+                        Work & Productivity
+                    </h2>
+                    <button class="collapse-btn" data-target="work-lessons">
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                </div>
+                <div class="category-content" id="work-lessons">
+                    <div class="lesson-detail-card">
+                        <div class="lesson-header">
+                            <div class="lesson-info">
+                                <h3>Mastering Your Time & Goals</h3>
+                                <p class="lesson-meta">
+                                    <span><i class="far fa-clock"></i> 15 min</span>
+                                    <span><i class="far fa-user"></i> Beginner</span>
+                                </p>
+                            </div>
+                            <div class="lesson-actions">
+                                <a href="work-productivity.html" class="btn btn-primary btn-sm">
+                                    <i class="fas fa-play"></i> Start Lesson
+                                </a>
+                            </div>
+                        </div>
+                        <p class="lesson-description">
+                            Learn practical strategies for time management, goal setting, and maintaining productivity while honoring God in your work. This lesson covers biblical principles of stewardship and diligence.
+                        </p>
+                        <div class="audio-player">
+                            <audio controls>
+                                <source src="../assets/audio/work-productivity.mp3" type="audio/mpeg">
+                                Your browser does not support the audio element.
+                            </audio>
+                        </div>
+                        <div class="social-share">
+                            <span>Share:</span>
+                            <a href="#" class="share-btn" aria-label="Share on Facebook"><i class="fab fa-facebook"></i></a>
+                            <a href="#" class="share-btn" aria-label="Share on WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                            <a href="#" class="share-btn" aria-label="Share on Twitter"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-    <div class="lesson">
-      <h3>Lesson 2: Leading with Integrity</h3>
-      <iframe src="https://anchor.fm/your-anchor-id/embed/episodes/example2" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
-      <p>Exploring the importance of moral excellence in leadership.</p>
-    </div>
-  </main>
+            <!-- Category: Excellence & Integrity -->
+            <div class="lesson-category">
+                <div class="category-header">
+                    <h2 class="category-title">
+                        <i class="fas fa-award"></i>
+                        Excellence & Integrity
+                    </h2>
+                    <button class="collapse-btn" data-target="excellence-lessons">
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                </div>
+                <div class="category-content" id="excellence-lessons">
+                    <div class="lesson-detail-card">
+                        <div class="lesson-header">
+                            <div class="lesson-info">
+                                <h3>Living with Honor & Truth</h3>
+                                <p class="lesson-meta">
+                                    <span><i class="far fa-clock"></i> 18 min</span>
+                                    <span><i class="far fa-user"></i> Intermediate</span>
+                                </p>
+                            </div>
+                            <div class="lesson-actions">
+                                <a href="excellence-integrity.html" class="btn btn-primary btn-sm">
+                                    <i class="fas fa-play"></i> Start Lesson
+                                </a>
+                            </div>
+                        </div>
+                        <p class="lesson-description">
+                            Discover how to build a life of unwavering integrity and pursue excellence in all you do. Learn to make decisions that honor God and maintain your character even under pressure.
+                        </p>
+                        <div class="audio-player">
+                            <audio controls>
+                                <source src="../assets/audio/excellence-integrity.mp3" type="audio/mpeg">
+                                Your browser does not support the audio element.
+                            </audio>
+                        </div>
+                        <div class="social-share">
+                            <span>Share:</span>
+                            <a href="#" class="share-btn" aria-label="Share on Facebook"><i class="fab fa-facebook"></i></a>
+                            <a href="#" class="share-btn" aria-label="Share on WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                            <a href="#" class="share-btn" aria-label="Share on Twitter"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-  <footer>
-    <p>&copy; 2025 Mens Mentorship</p>
-  </footer>
+            <!-- Category: Christian Leadership -->
+            <div class="lesson-category">
+                <div class="category-header">
+                    <h2 class="category-title">
+                        <i class="fas fa-crown"></i>
+                        Christian Leadership
+                    </h2>
+                    <button class="collapse-btn" data-target="leadership-lessons">
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                </div>
+                <div class="category-content" id="leadership-lessons">
+                    <div class="lesson-detail-card">
+                        <div class="lesson-header">
+                            <div class="lesson-info">
+                                <h3>Leading with Servant's Heart</h3>
+                                <p class="lesson-meta">
+                                    <span><i class="far fa-clock"></i> 20 min</span>
+                                    <span><i class="far fa-user"></i> Advanced</span>
+                                </p>
+                            </div>
+                            <div class="lesson-actions">
+                                <a href="christian-leadership.html" class="btn btn-primary btn-sm">
+                                    <i class="fas fa-play"></i> Start Lesson
+                                </a>
+                            </div>
+                        </div>
+                        <p class="lesson-description">
+                            Develop authentic Christian leadership that serves, inspires, and transforms. Learn biblical principles of leadership modeled after Christ's example of humility and service.
+                        </p>
+                        <div class="audio-player">
+                            <audio controls>
+                                <source src="../assets/audio/christian-leadership.mp3" type="audio/mpeg">
+                                Your browser does not support the audio element.
+                            </audio>
+                        </div>
+                        <div class="social-share">
+                            <span>Share:</span>
+                            <a href="#" class="share-btn" aria-label="Share on Facebook"><i class="fab fa-facebook"></i></a>
+                            <a href="#" class="share-btn" aria-label="Share on WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                            <a href="#" class="share-btn" aria-label="Share on Twitter"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Category: Relationships & Character -->
+            <div class="lesson-category">
+                <div class="category-header">
+                    <h2 class="category-title">
+                        <i class="fas fa-heart"></i>
+                        Relationships & Character
+                    </h2>
+                    <button class="collapse-btn" data-target="relationships-lessons">
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                </div>
+                <div class="category-content" id="relationships-lessons">
+                    <div class="lesson-detail-card">
+                        <div class="lesson-header">
+                            <div class="lesson-info">
+                                <h3>Building Strong Foundations</h3>
+                                <p class="lesson-meta">
+                                    <span><i class="far fa-clock"></i> 17 min</span>
+                                    <span><i class="far fa-user"></i> Intermediate</span>
+                                </p>
+                            </div>
+                            <div class="lesson-actions">
+                                <a href="relationships-character.html" class="btn btn-primary btn-sm">
+                                    <i class="fas fa-play"></i> Start Lesson
+                                </a>
+                            </div>
+                        </div>
+                        <p class="lesson-description">
+                            Cultivate meaningful relationships and develop strong character. Learn how to be a godly husband, father, friend, and community member through biblical wisdom.
+                        </p>
+                        <div class="audio-player">
+                            <audio controls>
+                                <source src="../assets/audio/relationships-character.mp3" type="audio/mpeg">
+                                Your browser does not support the audio element.
+                            </audio>
+                        </div>
+                        <div class="social-share">
+                            <span>Share:</span>
+                            <a href="#" class="share-btn" aria-label="Share on Facebook"><i class="fab fa-facebook"></i></a>
+                            <a href="#" class="share-btn" aria-label="Share on WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                            <a href="#" class="share-btn" aria-label="Share on Twitter"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Category: Faith & Devotion -->
+            <div class="lesson-category">
+                <div class="category-header">
+                    <h2 class="category-title">
+                        <i class="fas fa-cross"></i>
+                        Faith & Devotion
+                    </h2>
+                    <button class="collapse-btn" data-target="faith-lessons">
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                </div>
+                <div class="category-content" id="faith-lessons">
+                    <div class="lesson-detail-card">
+                        <div class="lesson-header">
+                            <div class="lesson-info">
+                                <h3>Deepening Your Walk with God</h3>
+                                <p class="lesson-meta">
+                                    <span><i class="far fa-clock"></i> 22 min</span>
+                                    <span><i class="far fa-user"></i> All Levels</span>
+                                </p>
+                            </div>
+                            <div class="lesson-actions">
+                                <a href="faith-devotion.html" class="btn btn-primary btn-sm">
+                                    <i class="fas fa-play"></i> Start Lesson
+                                </a>
+                            </div>
+                        </div>
+                        <p class="lesson-description">
+                            Strengthen your relationship with God through prayer, scripture, and spiritual disciplines. Develop daily practices that draw you closer to Christ and transform your life.
+                        </p>
+                        <div class="audio-player">
+                            <audio controls>
+                                <source src="../assets/audio/faith-devotion.mp3" type="audio/mpeg">
+                                Your browser does not support the audio element.
+                            </audio>
+                        </div>
+                        <div class="social-share">
+                            <span>Share:</span>
+                            <a href="#" class="share-btn" aria-label="Share on Facebook"><i class="fab fa-facebook"></i></a>
+                            <a href="#" class="share-btn" aria-label="Share on WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                            <a href="#" class="share-btn" aria-label="Share on Twitter"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Men's Mentorship</h3>
+                    <p>Empowering men to live with purpose, integrity, and faith.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="../about.html">About</a></li>
+                        <li><a href="index.html">Lessons</a></li>
+                        <li><a href="../contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Resources</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Prayer Guide</a></li>
+                        <li><a href="#">Bible Study</a></li>
+                        <li><a href="#">Community Forum</a></li>
+                        <li><a href="#">FAQs</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Men's Mentorship. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../assets/js/main.js"></script>
 </body>
 </html>
